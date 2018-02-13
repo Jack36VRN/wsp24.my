@@ -1,5 +1,5 @@
 /*
-v1.0 (12/02/2018)
+v1.0.1 (14/02/2018)
 Name: File Styles;
 License: Web Style Production;
 Url: https://wsp24.ru/;
@@ -62,7 +62,7 @@ section a {
 .slogan > div > div:nth-child(2) {
 	border-bottom: 1px solid;
 	border-top: 1px solid;
-	font-size: 46px;
+	font-size: 38px;
 	font-stretch: ultra-expanded;
 	height: 70px;
 	display: table;
