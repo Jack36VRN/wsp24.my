@@ -1,0 +1,215 @@
+/*
+v1.0 (12/02/2018)
+Name: File Styles;
+License: Web Style Production;
+Url: https://wsp24.ru/;
+Author: Tischuk Evgeniy;
+*/
+
+@charset "utf-8";
+
+* {
+	font-family: 'TTTravels-Regular', arial;
+}
+
+body {
+	min-width: 960px;
+}
+
+header {
+	background: url(/images/header-bcg.png);
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+header a, footer a {
+	color: #fff;
+	text-decoration-line: none;
+}
+
+section a {
+	color: #000;
+	text-decoration-line: none;
+}
+
+.content {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: inherit;
+}
+
+.header {
+	height: 115px;
+}
+
+.slogan {
+	height: calc(100% - 115px);
+	position: relative;
+	margin: 0 auto;
+	width: 65%;
+	text-align: center;
+	font-size: 20px;
+	display: table;
+}
+
+.slogan > div {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.slogan > div > div:nth-child(2) {
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+	font-size: 46px;
+	font-stretch: ultra-expanded;
+	height: 70px;
+	display: table;
+	text-align: center;
+	width: 100%;
+	margin:20px 0 40px;
+}
+
+.slogan > div > div:nth-child(2) > p {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.slogan > div > div:nth-child(3) {
+	border: 1px solid;
+	width: min-content;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+.slogan > div > div:nth-child(3) a {
+	padding: 10px 35px;
+}
+
+.slogan > div > div:nth-child(3) a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+.slogan > div > div:nth-child(3):hover {
+	border-color: #000;
+}
+
+.scroll {
+	text-align: center;
+	bottom: 10px;
+	position: absolute;
+	width: 100%;
+}
+
+section {
+	min-height: 800px;	
+	line-height: 1.4;
+	padding: 1px;
+}
+
+h1 {
+	font-size: 42px;
+	width: 250px;
+	border-bottom: 3px solid;
+	margin: 35px 0;
+}
+
+.post {
+	font-size: 30px;
+	text-align: justify;
+}
+
+.column {
+	width: calc(100%/3);
+	float: left;
+	text-align: center;
+	margin-top:80px;
+	font-size: 40px;
+}
+
+.column span {
+	font-size: 25px;
+}
+
+#contacts .post {
+	text-align: center;
+}
+
+.contacts, .social {
+	margin: 45px 0;
+	text-align: center;
+}
+
+.contacts > div {
+	margin: 20px 0;
+}
+
+.contacts a, .social a {
+	font-size: 30px;
+	text-shadow: 1px 1px 1px #000;
+}
+.contacts a:hover {
+	color: rgba(255,255,255,.6) !important;
+}
+
+.icon-mobile:before, .icon-envelope:before {
+	margin-right: 10px;
+	margin-left: 0;
+}
+
+.form {
+	border: 3px solid #15f3f0;
+	text-align: center;
+	padding: 10px 60px;
+	width: calc(50% - 120px);
+	margin: 30px auto;	
+	box-shadow: 1px 1px 3px #000;
+}
+
+input:not([type="checkbox"]), textarea {	
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid rgba(0,0,0,.3)
+}
+
+[type="submit"] {
+	cursor: pointer;
+	border: 1px solid #fff !important;
+	width: min-content !important;
+	padding: 0 30px;
+	font-size: 18px;
+	margin: 15px 0;
+}
+
+[type="submit"]:hover {
+	background-color: #fff;
+	box-shadow: 2px 2px 2px #000;
+	color: #000;
+}
+
+.consent {
+	font-size: 10px;
+}
+
+[type="checkbox"] {
+	height: 10px;
+}
+
+footer {
+	height: 50px;
+	background-color: #000;
+	color: #fff;
+	font-size:12px;
+	display: table;
+	text-align: center;
+	text-align: -webkit-center;
+}
+
+footer p {
+	display: table-cell;
+	vertical-align: middle;
+	height: inherit;	
+	text-align: center;
+}

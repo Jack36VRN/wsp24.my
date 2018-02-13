@@ -1,0 +1,46 @@
+/*
+v1.0 (12/02/2018)
+Name: Fonts;
+License: Web Style Production;
+Url: https://wsp24.ru/;
+Author: Tischuk Evgeniy;
+*/
+
+@charset "utf-8";
+
+
+
+@font-face {
+  font-family: 'TTTravels-Regular';
+  src: url('../fonts/TTTravels-Regular.eot');
+  src: url('../fonts/TTTravels-Regular.woff2') format('woff2'),
+       url('../fonts/TTTravels-Regular.woff') format('woff'),
+       url('../fonts/TTTravels-Regular.ttf') format('truetype'),
+       url('../fonts/TTTravels-Regular.svg#TTTravels-Regular') format('svg'),
+       url('../fonts/TTTravels-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTTravels-Medium';
+  src: url('../fonts/TTTravels-Medium.eot');
+  src: url('../fonts/TTTravels-Medium.woff2') format('woff2'),
+       url('../fonts/TTTravels-Medium.woff') format('woff'),
+       url('../fonts/TTTravels-Medium.ttf') format('truetype'),
+       url('../fonts/TTTravels-Medium.svg#TTTravels-Medium') format('svg'),
+       url('../fonts/TTTravels-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'contact-icons';
+  src:  url('../fonts/contact-icons.eot?f1d1uc');
+  src:  url('../fonts/contact-icons.eot?f1d1uc#iefix') format('embedded-opentype'),
+    url('../fonts/contact-icons.ttf?f1d1uc') format('truetype'),
+    url('../fonts/contact-icons.woff?f1d1uc') format('woff'),
+    url('../fonts/contact-icons.svg?f1d1uc#contact-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

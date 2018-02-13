@@ -1,0 +1,58 @@
+/*
+v1.0 (12/02/2018)
+Name: Icons;
+License: Web Style Production;
+Url: https://wsp24.ru/;
+Author: Tischuk Evgeniy;
+*/
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  margin: 0 10px;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: 'contact-icons' !important;
+}
+
+.icon-facebook:before {
+  content: "\e906";
+  color: #3b5998;
+}
+.icon-instagram:before {
+  content: "\e900";
+  color: #e4405f;
+}
+.icon-vk:before {
+  content: "\e905";
+  color: #6383a8;
+}
+.icon-skype:before {
+  content: "\e904";
+  color: #00aff0;
+}
+.icon-telegram:before {
+  content: "\e902";
+  color: #2ca5e0;
+}
+.icon-whatsapp:before {
+  content: "\e903";
+  color: #25d366;
+}
+.icon-envelope:before {
+  content: "\e901";
+}
+.icon-mobile:before {
+  content: "\e958";
+}
