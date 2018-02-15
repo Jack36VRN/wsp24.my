@@ -103,10 +103,11 @@ section a {
 	width: 100%;
 }
 
-section {
-	min-height: 800px;	
+section {	
 	line-height: 1.4;
-	padding: 1px;
+	padding: 1px;	
+	overflow: hidden;	
+	margin-bottom: 60px;;;
 }
 
 h1 {
@@ -117,24 +118,31 @@ h1 {
 }
 
 .post {
-	font-size: 30px;
+	font-size: 1.3em;
 	text-align: justify;
 }
 
-.column {
-	width: calc(100%/3 - 60px);
+.column-2, .column-3 {
 	float: left;
 	margin-left: 30px;
 	margin-right: 30px;
 }
 
-#we .column {
+.column-2 {
+	width: calc(100%/2 - 60px);
+}
+
+.column-3 {
+	width: calc(100%/3 - 60px);
+}
+
+#we .column-3 {
 	text-align: center;
 	font-size: 40px;
 	margin-top: 80px;
 }
 
-#we .column span {
+#we .column-3 span {
 	font-size: 25px;
 }
 
@@ -163,26 +171,18 @@ h1 {
 	text-align: justify;
 	font-size: 1.1em;
 	min-height: 150px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 .service-point {
 	border-top: 1px solid rgba(8,232,222,.2);
 	font-family: 'TTTravels-Medium', arial;
 	font-size: 1.2em;
+	padding: 10px 0;
 }
 
 .service-point:last-child {
 	border-bottom: 1px solid rgba(8,232,222,.2);
-}
-
-
-
-
-
-
-#contacts .post {
-	text-align: center;
 }
 
 .contacts, .social {
